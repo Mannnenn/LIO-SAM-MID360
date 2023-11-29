@@ -1,3 +1,4 @@
+set(CMAKE_CXX_STANDARD 14)
 cmake_minimum_required(VERSION 2.8.3)
 project(lio_sam)
 
@@ -19,6 +20,7 @@ find_package(catkin REQUIRED COMPONENTS
   nav_msgs
   message_generation
   visualization_msgs
+  livox_ros_driver
 )
 
 find_package(OpenMP REQUIRED)
